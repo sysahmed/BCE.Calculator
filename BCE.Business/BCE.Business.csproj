@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BCE.Core\BCE.Core.csproj" />
+    <ProjectReference Include="..\BCE.DataAccess\BCE.DataAccess.csproj" />
+    <ProjectReference Include="..\BCE.Entities\BCE.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
